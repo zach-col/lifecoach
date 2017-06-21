@@ -1,0 +1,22 @@
+/* changing carousel height to 100% */
+.carousel {
+  height: 100vh;
+}
+/* changing carousel image full height for header */
+.carousel-inner>.item>a>img, .carousel-inner>.item>.carouselImage {
+  line-height: 1;
+  height: 100vh;
+  width: 100%;
+  display: block;
+}
+/* changing testimonial carousel image height */
+.carousel-inner>.item>a>img, .carousel-inner>.item>.carouselTestImage {
+  line-height: 1;
+  height: 200px;
+  width: 100%;
+  display: block;
+}
+/* custom carousel for testimonial */
+.testCarousel{
+  height: 200px;
+}

@@ -1,0 +1,13 @@
+/* body font sized */
+body{
+  font-size: 17px;
+}
+/* making navbar toggle button go to left */
+.navbar-toggle {
+  float: left;
+  margin-left: 15px;
+}
+/* making navbar brand go to right */
+.navbar-brand {
+  float: right;
+}
