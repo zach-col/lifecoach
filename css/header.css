@@ -17,6 +17,10 @@
   width: 100%;
   display: block;
   opacity: 7.4;
+  filter: brightness(67%);
+}
+.carousel-caption{
+  text-shadow: none;
 }
 .orangeBtnLink{
   color: orange;
