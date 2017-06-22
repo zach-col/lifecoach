@@ -1,0 +1,13 @@
+/* contact Header */
+#contactHeader{
+  color: black;
+}
+/* contact icons */
+.contactIcon{
+ color: orange;
+}
+/* contact info */
+.contactInfo{
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
