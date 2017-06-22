@@ -1,18 +1,25 @@
 /* changing testimonial carousel image height */
-.carousel-inner>.item>a>img, .carousel-inner>.item>.carouselTestImage {
-  line-height: 1;
-  height: 50vh;
-  width: 100%;
-  display: block;
-  opacity: 0.7;
+.carouselTestImage{
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+  border-radius: 50%;
 }
 /* custom carousel for testimonial */
 .testCarousel{
-  height: 50vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: white;
+  text-align: center;
+  background-color: black;
+}
+.testName{
+  color: grey;
+  padding-bottom: 15px;
 }
 /* carousel user image */
 .testImage{
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  border-radius: 50px;
 }

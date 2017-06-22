@@ -1,5 +1,5 @@
 /* changing carousel height to 100% */
-.carousel {
+.carouselHeader {
   height: 100vh;
 }
 /* carousel caption */

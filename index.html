@@ -17,6 +17,8 @@
   <link rel="stylesheet" href="css/getStarted.css">
   <!-- testimonial css -->
   <link rel="stylesheet" href="css/testimonial.css">
+  <!-- feature css -->
+  <link rel="stylesheet" href="css/feature.css">
 
   <!-- font awesome cdn -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
@@ -54,7 +56,7 @@
 
 <!-- carousel area -->
 <div>
-  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <div id="myCarousel" class="carouselHeader slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -70,7 +72,7 @@
         <div class="carousel-caption headerCaption">
           <h1>Don't put off for tomorrow what you can do today.</h1>
           <h3>Lorem Ipsum ipsum dolor sit amet</h3>
-          <button type="button" class="btn gettingStartedBtn">Get Started</button>
+          <button type="button" class="btn orangeBtn">Get Started</button>
         </div>
       </div>
 
@@ -79,7 +81,7 @@
         <div class="carousel-caption headerCaption">
           <h1>My services</h1>
           <h3>Duis aute irure dolor in reprehenderit</h3>
-          <button type="button" class="btn gettingStartedBtn">Services</button>
+          <button type="button" class="btn orangeBtn">Services</button>
         </div>
       </div>
 
@@ -88,7 +90,7 @@
         <div class="carousel-caption headerCaption">
           <h1>Contact</h1>
           <h3>Lorem Ipsum ipsum dolor sit amet</h3>
-          <button type="button" class="btn gettingStartedBtn">Contact</button>
+          <button type="button" class="btn orangeBtn">Contact</button>
         </div>
       </div>
 
@@ -144,84 +146,130 @@
 <div id="getStarted">
   <div id="scrollerImage">
     <h2 id="scrollerText">Why not, move forward?</h2>
-    <button type="button" class="btn gettingStartedBtn">Get Started</button>
+    <button type="button" class="btn orangeBtn">Get Started</button>
   </div>
 </div>
 
 
 <!-- testiomonial section -->
 <!-- carousel area -->
-<div>
-  <div id="my2Carousel" class="carousel slide testCarousel" data-ride="carousel">
+  <div id="myTestCarousel" class="carousel slide testCarousel" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
-      <li data-target="#my2Carousel" data-slide-to="0" class="active"></li>
-      <li data-target="#my2Carousel" data-slide-to="1"></li>
-      <li data-target="#my2Carousel" data-slide-to="2"></li>
+      <li data-target="#myTestCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myTestCarousel" data-slide-to="1"></li>
+      <li data-target="#myTestCarousel" data-slide-to="2"></li>
     </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
-
       <div class="item active">
-        <img src="img/header1.jpg" class="carouselTestImage" alt="sky">
-        <div class="carousel-caption">
-          <img src="img/personImage.jpg" class="image-responsive testImage" alt="person image" />
-          <h1>ipsum dolor sit amet, consectetur adipisicing elit</h1>
-          <h3>Jack</h3>
-        </div>
+        <!-- testimonial image of person -->
+        <img src="img/personImage1.jpg" class=" image-responsive carouselTestImage" alt="image of person">
+        <!-- testimonial comment -->
+        <h2 class="testComment">"loremo ipsum testgl rolaour fjoingjr"
+        </h2>
+        <!-- testimonial name -->
+        <p class="testName">- Marla</p>
       </div>
 
       <div class="item">
-        <img src="img/header2.jpg" class="carouselTestImage" alt="sky">
-        <div class="carousel-caption">
-          <img src="img/personImage.jpg" class="image-responsive testImage" alt="person image" />
-          <h1>ipsum dolor sit amet, consectetur adipisicing elit</h1>
-          <h3>Jack</h3>
-        </div>
+        <!-- testimonial image of person -->
+        <img src="img/personImage2.jpg" class=" image-responsive carouselTestImage" alt="image of person">
+        <!-- testimonial comment -->
+        <h2 class="testComment">"loremo ipsum testgl rolaour fjoingjr"
+        </h2>
+        <!-- testimonial name -->
+        <p class="testName">- Jack</p>
       </div>
 
       <div class="item">
-        <img src="img/header3.jpg" class="carouselTestImage" alt="sky">
-        <div class="carousel-caption">
-          <img src="img/personImage.jpg" class="image-responsive testImage" alt="person image" />
-          <h1>ipsum dolor sit amet, consectetur adipisicing elit</h1>
-          <h3>Jack</h3>
-        </div>
+        <!-- testimonial image of person -->
+        <img src="img/personImage.jpg" class=" image-responsive carouselTestImage" alt="image of person">
+        <!-- testimonial comment -->
+        <h2 class="testComment">"loremo ipsum testgl rolaour fjoingjr"
+        </h2>
+        <!-- testimonial name -->
+        <p class="testName">- Tom</p>
       </div>
     </div>
   </div>
-</div>
+
 <!-- pricing section -->
 <div>
-  <div class="col-md-6 col-xs-12">
+  <!-- feature -->
+  <div class="col-md-4 col-sm-4 col-xs-12">
     <div class="featureContainer">
       <!-- feature box -->
-      <div clas="featureTopBox">
+      <div class="featureTopBox">
         <h1>Feature<h1>
       </div>
       <!-- feature time frame -->
       <h2 class="featureTimeFrame">4 weeks</h2>
       <!-- feature cost -->
       <div class="featureCost">
-        <h3>$3</h3>
+        <h3>$300</h3>
       </div>
       <!-- list of features -->
-      <ul>
+      <ul class="featureUl">
        <li>Lorem</li>
         <li>Ipsum</li>
         <li>Lorem</li>
       </ul>
-      <button type="button" class="btn">Get Started</button>
+      <button type="button" class="btn greenBtn">Get Started</button>
+    </div>
+  </div>
+  <!-- feature -->
+  <div class="col-md-4 col-sm-4 col-xs-12">
+    <div class="featureContainer">
+      <!-- feature box -->
+      <div class="featureTopBox">
+        <h1>Feature<h1>
+      </div>
+      <!-- feature time frame -->
+      <h2 class="featureTimeFrame">8 weeks</h2>
+      <!-- feature cost -->
+      <div class="featureCost">
+        <h3>$550</h3>
+      </div>
+      <!-- list of features -->
+      <ul class="featureUl">
+       <li>Lorem</li>
+        <li>Ipsum</li>
+        <li>Lorem</li>
+      </ul>
+      <button type="button" class="btn greenBtn">Get Started</button>
+    </div>
+  </div>
+  <!-- feature -->
+  <div class="col-md-4 col-sm-4 col-xs-12">
+    <div class="featureContainer">
+      <!-- feature box -->
+      <div class="featureTopBox">
+        <h1>Feature<h1>
+      </div>
+      <!-- feature time frame -->
+      <h2 class="featureTimeFrame">12 weeks</h2>
+      <!-- feature cost -->
+      <div class="featureCost">
+        <h3>$800</h3>
+      </div>
+      <!-- list of features -->
+      <ul class="featureUl">
+       <li>Lorem</li>
+        <li>Ipsum</li>
+        <li>Lorem</li>
+      </ul>
+      <button type="button" class="btn greenBtn">Get Started</button>
     </div>
   </div>
 </div>
 
 <!-- contact section -->
 <div class="container-fluid">
+  <div class="col-xs-12">
   <!-- contact header -->
   <h1 id="contacHeader">Contact</h1>
-  <div class="col-xs-12">
   <!-- email -->
   <h3><i class="fa fa-envelope fa-1x contactIcon"></i>   Email: email@example.com</h3>
   <h3><i class="fa fa-phone fa-1x contactIcon"></i>   Phone: 512-111-1111</h3>

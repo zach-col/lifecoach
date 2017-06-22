@@ -1,0 +1,39 @@
+/* feature container */
+.featureContainer{
+  border: 1px solid black;
+  margin-top: 40px;
+  padding-bottom: 20px;
+}
+/* feature box header */
+.featureTopBox{
+  background-color: black;
+  padding-top: 1px;
+  padding-bottom: 3px;
+  text-align: center;
+  color: orange;
+}
+/* feature time frame */
+.featureTimeFrame{
+  text-align: center;
+  color: black;
+  padding-bottom: 20px;
+}
+/* feature cost */
+.featureCost{
+  text-align: center;
+  color: black;
+  background-color: orange;
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+/* feature ul list */
+.featureUl{
+  padding-top: 20px;
+  margin-left: -40px;
+  font-size: 25px;
+  list-style-position: inside;
+  text-align: center;
+  color: black;
