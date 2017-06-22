@@ -14,9 +14,14 @@
   text-align: center;
   background-color: black;
 }
+/* testimonial name */
 .testName{
   color: grey;
   padding-bottom: 15px;
+}
+.testComment{
+  padding-left: 15px;
+  padding-right: 15px;
 }
 /* carousel user image */
 .testImage{

@@ -20,10 +20,20 @@
 }
 /* getting started text */
 #scrollerText{
-  float: left;
+  text-align: center;
   color: white;
-  margin-right: 50px;
-  display: inline-block;
+}
+/* getting started link*/
+#scrollerImage h2{
+  text-align: right;
+  margin-right: 150px;
+}
+/* get started link on mobile */
+@media screen and (max-height: 767px) {
+  #scrollerImage h2 {
+    text-align: center;
+    margin-right: 0px;
+  }
 }
 /* orange btn */
 .orangeBtn {

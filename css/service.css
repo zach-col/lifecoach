@@ -1,6 +1,8 @@
 #serviceSection{
-  margin-top: 5px;
-  margin-bottom: 75px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding-bottom: 50px;
+  height: auto;
 }
 /* service Header */
 #serviceHeader{
@@ -12,7 +14,8 @@
 #serviceSubHeader{
   text-align: center;
   color: black;
-  margin-bottom: 30px;
+  margin-top: 45px;
+  margin-bottom: 40px;
 }
 /* service holder */
 .serviceHolder{
@@ -26,6 +29,9 @@
 }
 /* image of person */
 #personImage{
-  width: 100%;
+  width: 300px;
   height: 300px;
+  margin-top: 45px;
+  margin: 0 auto;
+  padding-top: 45px;
 }
