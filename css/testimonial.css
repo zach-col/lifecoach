@@ -1,0 +1,18 @@
+/* changing testimonial carousel image height */
+.carousel-inner>.item>a>img, .carousel-inner>.item>.carouselTestImage {
+  line-height: 1;
+  height: 50vh;
+  width: 100%;
+  display: block;
+  opacity: 0.7;
+}
+/* custom carousel for testimonial */
+.testCarousel{
+  height: 50vh;
+}
+/* carousel user image */
+.testImage{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
