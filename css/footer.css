@@ -1,6 +1,7 @@
 /* contact Header */
 #contactHeader{
   color: black;
+  margin-top: 70px;
 }
 /* contact icons */
 .contactIcon{
@@ -10,4 +11,10 @@
 .contactInfo{
   margin-left: 20px;
   margin-bottom: 30px;
+}
+/* custom google map */
+#customMap{
+  margin-top: 200px;
+  text-align: center;
+  color: black;
 }

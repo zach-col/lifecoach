@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>bootstrap starter</title>
+  <title>Life Coach</title>
   <meta charset="utf-8">
   <!-- for mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -36,18 +36,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Life Coach</a>
+          <a class="navbar-brand" href="#home">Life Coach</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
 
         <ul class="nav navbar-nav navbar-left">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Extra Content<span class="caret"></span></a>
+          <li class="active"><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#testimonials">Testimonial's</a></li>
+          <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Extra's<span class="caret"></span></a>
             <ul class="dropdown-menu">
-              <li><a href="#">Extra Content</a></li>
-              <li><a href="#">Extra Content</a></li>
+              <li><a href="#features">Pricing</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </li>
         </ul>
@@ -55,15 +55,12 @@
       </div> <!-- end of container -->
     </nav>
 
+<!-- link for navbar -->
+<div id="home">
+</div>
 <!-- carousel area -->
 <div>
   <div id="myCarousel" class="carouselHeader slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-      <li data-target="#myCarousel" data-slide-to="1"></li>
-      <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
 
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
@@ -73,7 +70,7 @@
         <div class="carousel-caption headerCaption">
           <h1>Don't put off for tomorrow what you can do today.</h1>
           <h3>Lorem Ipsum ipsum dolor sit amet</h3>
-          <button type="button" class="btn orangeBtn">Get Started</button>
+          <a href="#testimonials" class="orangeBtnLink">Get Started</a>
         </div>
       </div>
 
@@ -82,7 +79,7 @@
         <div class="carousel-caption headerCaption">
           <h1>My services</h1>
           <h3>Duis aute irure dolor in reprehenderit</h3>
-          <button type="button" class="btn orangeBtn">Services</button>
+          <a href="#services" class="orangeBtnLink">Services</a>
         </div>
       </div>
 
@@ -91,24 +88,16 @@
         <div class="carousel-caption headerCaption">
           <h1>Contact</h1>
           <h3>Lorem Ipsum ipsum dolor sit amet</h3>
-          <button type="button" class="btn orangeBtn">Contact</button>
+          <a href="tel:512-111-1111" class="orangeBtnLink">Contact</a>
         </div>
       </div>
 
     </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-      <span class="glyphicon glyphicon-chevron-left"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" data-slide="next">
-      <span class="glyphicon glyphicon-chevron-right"></span>
-      <span class="sr-only">Next</span>
-    </a>
   </div>
 </div>
-
+<!-- link for navbar -->
+<div id="services">
+</div>
 <!-- my services section -->
 <div class=" container-fluid" id="serviceSection">
   <!-- services header -->
@@ -143,11 +132,16 @@
 </div>
 
 
+<!-- link for navbar -->
+<div id="testimonials">
+</div>
 <!-- get started div -->
 <div id="getStarted">
   <div id="scrollerImage">
     <h2 id="scrollerText">Why not, move forward?</h2>
-    <button type="button" class="btn orangeBtn">Get Started</button>
+    <h2>
+    <a href="tel:512-111-1111" class="greenBtnLink">Get&nbsp;Started</a>
+    </h2>
   </div>
 </div>
 
@@ -196,6 +190,9 @@
     </div>
   </div>
 
+<!-- link for navbar -->
+<div id="features">
+</div>
 <!-- pricing section -->
 <div>
   <!-- feature -->
@@ -217,7 +214,9 @@
         <li>Ipsum</li>
         <li>Lorem</li>
       </ul>
-      <button type="button" class="btn greenBtn">Get Started</button>
+      <h2 class="text-center">
+      <a href="tel:512-111-1111" class="greenBtnLink">Get&nbsp;Started</a>
+      </h2>
     </div>
   </div>
   <!-- feature -->
@@ -239,7 +238,9 @@
         <li>Ipsum</li>
         <li>Lorem</li>
       </ul>
-      <button type="button" class="btn greenBtn">Get Started</button>
+      <h2 class="text-center">
+      <a href="tel:512-111-1111" class="greenBtnLink">Get&nbsp;Started</a>
+      </h2>
     </div>
   </div>
   <!-- feature -->
@@ -261,13 +262,24 @@
         <li>Ipsum</li>
         <li>Lorem</li>
       </ul>
-      <button type="button" class="btn greenBtn">Get Started</button>
+      <h2 class="text-center">
+      <a href="tel:512-111-1111" class="greenBtnLink">Get&nbsp;Started</a>
+      </h2>
     </div>
   </div>
 </div>
 
+<!-- map section -->
+<div id="customMap">
+<h2>Service in the greater Austin area.</h2>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d440897.07468445034!2d-98.03428561427246!3d30.308053834812103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C+TX!5e0!3m2!1sen!2sus!4v1498085014816" width="100%" height="350" frameborder="0" style="border:0"></iframe>
+</div>
+
 <!-- contact section -->
 <div class="container-fluid">
+<!-- link for contact -->
+<div id="contact">
+</div>
   <div class="col-xs-12">
   <!-- contact header -->
   <h1 id="contactHeader">Contact</h1>
@@ -277,12 +289,6 @@
   <h3 class="contactInfo"><i class="fa fa-location-arrow fa-1x contactIcon"></i>  Austin</h3>
   </div>
 </div>
-
-<!-- map section -->
-<div id="customMap">
-<iframe id="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d440897.07468445034!2d-98.03428561427246!3d30.308053834812103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644b599a0cc032f%3A0x5d9b464bd469d57a!2sAustin%2C+TX!5e0!3m2!1sen!2sus!4v1498085014816" width="100%" height="450" frameborder="0" style="border:0"></iframe>
-</div>
-
   <!-- jquery v 3.2.1 -->
   <script src="js/jquery.min.js"></script>
   <!-- bootstrap v 3.3.7 js -->

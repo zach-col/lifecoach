@@ -1,6 +1,6 @@
 /* get started area */
 #getStarted{
-  margin-top: 50px;
+  margin-top: 100px;
 }
 /* getting started image */
 #scrollerImage {
@@ -22,6 +22,8 @@
 #scrollerText{
   float: left;
   color: white;
+  margin-right: 50px;
+  display: inline-block;
 }
 /* orange btn */
 .orangeBtn {
@@ -33,23 +35,9 @@
   margin: 0 auto;
   margin-top: 20px
 }
+/* orange button on hover etc ..... */
 .orangeBtn:focus, .orangeBtn:hover, .orangeBtn:active{
   color: white;
   background-color: orange;
   border-color: orange;
-}
-/* green  btn reversed */
-.greenBtn {
-  color: white;
-  background-color: green;
-  border-color: white;
-  border-radius: 0px;
-  display: block;
-  margin: 0 auto;
-  margin-top: 20px
-}
-.greenBtn:focus, .greenBtn:hover, .greenBtn:active{
-  color: green;
-  background-color: white;
-  border-color: green;
 }

@@ -2,6 +2,7 @@
 .featureContainer{
   border: 1px solid black;
   margin-top: 40px;
+  margin-bottom: 40px;
   padding-bottom: 20px;
 }
 /* feature box header */
@@ -37,3 +38,19 @@
   list-style-position: inside;
   text-align: center;
   color: black;
+}
+/* green button link */
+.greenBtnLink{
+  color: white;
+  background-color: green;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+/* green button link hover etc... */
+.greenBtnLink:hover, .greenBtnLink:active,.greenBtnLink:focus {
+  color: green;
+  background-color: white;
+  text-decoration: none;
+  border: 1px solid green;
+}
