@@ -1,0 +1,42 @@
+/* get started area */
+#getStarted{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* getting started image */
+#scrollerImage {
+  /* The image used */
+  background-image: url('../img/header3.jpg');
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  padding: 20px 20px;
+  width: 100%;
+  opacity: 4.5;
+}
+/* getting started text */
+#scrollerText{
+  float: left;
+  color: white;
+}
+/* getting started btn */
+.gettingStartedBtn {
+  color: orange;
+  background-color: white;
+  border-color: white;
+  border-radius: 0px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px
+}
+.gettingStartedBtn:focus, .gettingStartedBtn:hover, .gettingStarted:active{
+  color: white;
+  background-color: orange;
+  border-color: orange;
+}

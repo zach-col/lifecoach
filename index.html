@@ -13,26 +13,11 @@
   <link rel="stylesheet" href="css/header.css">
   <!-- service css -->
   <link rel="stylesheet" href="css/service.css">
+  <!-- get started css -->
+  <link rel="stylesheet" href="css/getStarted.css">
+
   <!-- font awesome cdn -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-<style>
-.carousel-caption{
-  top: 15vh;
-}
-.gettingStartedBtn {
-  color: orange;
-  background-color: white;
-  border-color: white;
-  border-radius: 0px;
-  margin-top: 30px;
-}
-.gettingStartedBtn:focus, .gettingStartedBtn:hover, .gettingStarted:active{
-  color: white;
-  background-color: orange;
-  border-color: orange;
-}
-
-</style>
 </head>
 
 <body>
@@ -121,7 +106,7 @@
 </div>
 
 <!-- my services section -->
-<div class=" container-fluid serviceSection">
+<div class=" container-fluid" id="serviceSection">
   <!-- services header -->
   <h1 class="text-center" id="serviceHeader">My Service's</h1>
   <div class="row">
@@ -148,17 +133,17 @@
       </div>
     </div>
     <div class=" col-md-6 col-xs-12">
-      <img src="img/header1.jpg" class="img-responsive" alt="image of life coach"/>
+      <img src="img/personImage.jpg" class="img-responsive" id="personImage" alt="image of life coach"/>
     </div>
   </div><!-- end of row -->
 </div>
 
 
 <!-- get started div -->
-<div>
-  <div class="scrollerDiv">
-    <h2>lorem ipsum</h2>
-    <button type="button" class="btn">Get Started</button>
+<div id="getStarted">
+  <div id="scrollerImage">
+    <h2 id="scrollerText">Why not, move forward?</h2>
+    <button type="button" class="btn gettingStartedBtn">Get Started</button>
   </div>
 </div>
 
