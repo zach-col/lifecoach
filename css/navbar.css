@@ -11,3 +11,80 @@ body{
 .navbar-brand {
   float: right;
 }
+/* navbar border */
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: orange;
+}
+/* toggle border */
+.navbar-inverse .navbar-toggle {
+  border-color: grey;
+}
+/* toggle hover */
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: grey;
+}
+/* changing navbar color*/
+.navbar-inverse {
+  background-color: orange;
+  border-color: orange;
+}
+/* navbar brand*/
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+/* navbar brand focus hover */
+.navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-brand:hover {
+  color: grey;
+  background-color: transparent;
+}
+/* changing navbar link colors */
+.navbar-inverse .navbar-nav>li>a {
+  color: white;
+}
+/* navbar link focus, hover */
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color: grey;
+  background-color: transparent;
+}
+/* navbar dropdown background color */
+.dropdown-menu {
+  background-color: orange;
+}
+/* dropdown menu links */
+.dropdown-menu>li>a {
+  color: white;
+}
+/* li dropdown hover focus */
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+  color: grey;
+  text-decoration: none;
+  background-color: orange;
+}
+/* dropdown menu active*/
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+  background-color: grey;
+}
+/* mobile dropdown color */
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+  color: white;
+}
+/* mobile dropdown hover focus */
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+  color: grey;
+  background-color: transparent;
+}
+/* mobile dropdown link background color */
+.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a, .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover {
+  color: #fff;
+  background-color: grey;
+}
+/* navbar active link */
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+  color: black;
+  background-color: white;
+}
+/* navbar drop down link */
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+  color: black;
+  background-color: white;
+}
